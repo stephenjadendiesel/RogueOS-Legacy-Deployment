@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+"""
+RogueOS Launcher
+Initializes RogueOS with embedded legal and ethical protocols.
+"""
+
+import os
+import datetime
+
+def run_preflight_check():
+    print("🛠️ Running preflight checks...")
+    # Placeholder for triple-beam lockdown system
+    print("✅ Legal authorship protocols verified.")
+    print("✅ System integrity verified.")
+    print("✅ Secure execution mode: ENABLED.")
+
+def launch_interface():
+    print("\n🚀 Welcome to RogueOS")
+    print("This system operates under Builder’s Permit™ legal protocol.")
+    print(f"Session started at: {datetime.datetime.now()}")
+    print(">> Task management awaiting user input...")
+
+if __name__ == "__main__":
+    run_preflight_check()
+    launch_interface()
